@@ -59,6 +59,3 @@ def discover_ip():  # Haetaan Hue Bridgen IP lähiverkossa
             # Palautetaan JSON-sisällöstä internalipaddress -arvo
             return data[0]['internalipaddress']
     return None  # Palautetaan None, jos sivusto ei vastaa
-
-
-main()  # Suoritetaan pääfunktio
